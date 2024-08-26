@@ -3,7 +3,7 @@ package org.example;
 public class SinglePattern {
     public static void main(String[] args) {
         System.out.println("enter the no rows");
-        pattern12(5);
+        pattern12(15);
 //        Scanner cin=new Scanner(System.in);
 //        int n= cin.nextInt();
 
@@ -301,7 +301,7 @@ private static void pattern5(int n) {
 
         int increment=0;
             for (int i = 1; i <= n * 2; i++) {
-                if( i <6) {
+                if( i <=n) {
                 for (int j = 1; j <= n * 2; j++) {
                     if (n - (i - 1) >= j || j > (n + i - 1)) {
                         System.out.print("*");
